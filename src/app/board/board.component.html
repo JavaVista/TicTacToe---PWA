@@ -1,1 +1,13 @@
-<p>board works!</p>
+<h1>Current Jugador: {{ player }} </h1>
+
+<button (click)="newGame()">Start new Epic Game</button>
+
+<h2 *ngIf="winner">
+    You {{ winner }} won this Epic Game!
+</h2>
+
+<main>
+    <app-square *ngFor="let square of squares; let i = index" [value]="square" (click)="makeMove(i)">
+
+    </app-square>
+</main>
