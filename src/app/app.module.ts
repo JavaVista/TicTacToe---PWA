@@ -3,13 +3,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { SquareComponent } from './square/square.component';
+import { BoardComponent } from './board/board.component';
 
 const routes: Routes = [];
 
 @NgModule({
   declarations: [
     AppComponent,
-    SquareComponent
+    SquareComponent,
+    BoardComponent
   ],
   imports: [
     BrowserModule,
