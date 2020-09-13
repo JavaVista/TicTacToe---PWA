@@ -1,11 +1,17 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { BoardComponent } from './board/board.component';
+import { NbLayoutModule } from '@nebular/theme';
+import { NebularTestingModule } from './nebular-testing.module';
+import { RouterTestingModule } from '@angular/router/testing';
+import { SquareComponent } from './square/square.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
+      imports: [NbLayoutModule, NebularTestingModule, RouterTestingModule],
       declarations: [
-        AppComponent
+        AppComponent, BoardComponent, SquareComponent
       ],
     }).compileComponents();
   }));
@@ -22,10 +28,4 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('tic-tac-toe-pwa');
   });
 
-  it('should render title', () => {
-    const fixture = TestBed.createComponent(AppComponent);
-    fixture.detectChanges();
-    const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('tic-tac-toe-pwa app is running!');
-  });
 });
