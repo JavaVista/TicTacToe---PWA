@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "tictactoepwa-javi": {
+      "hosting": {
+        "tic-tac-toe-pwa": [
+          "tictactoepwa-javi"
+        ]
+      }
+    }
+  }
+}

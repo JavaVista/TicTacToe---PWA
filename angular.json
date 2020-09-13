@@ -121,6 +121,10 @@
               "devServerTarget": "tic-tac-toe-pwa:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
