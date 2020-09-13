@@ -23,12 +23,12 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 
-## Contact / Social Media
+## Social Media
 
-* Twitter – [@seetechnologic](https://twitter.com/seetechnologic)
-* GitHub - [https://github.com/JavaVista/](https://github.com/JavaVista/)
-* Personal Site - [Resume](http://www.techno-logic.us/)
-* LinkedIn - [Javier Carrion](https://www.linkedin.com/in/technologic)
+* [Twitter - @seetechnologic](https://twitter.com/seetechnologic)
+* [GitHub](https://github.com/JavaVista/)
+* [Personal WebSite](http://www.techno-logic.us/)
+* [LinkedIn - Javier Carrion](https://www.linkedin.com/in/technologic)
 
 ### License
 
