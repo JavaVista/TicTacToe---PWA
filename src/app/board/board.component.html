@@ -5,7 +5,7 @@
 <h2 *ngIf="winner">
     You {{ winner }} won this Epic Game!
 </h2>
-
+<h2 *ngIf="movesCount === 9 && !winner">No one won 😔!</h2>
 <main>
     <app-square *ngFor="let square of squares; let i = index" [value]="square" (click)="makeMove(i)">
 
